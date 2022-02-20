@@ -52,7 +52,7 @@ const getInfoData = async (symbols) => {
         }
 
     })
-    return 
+    //return 
 }
 
   //Three functions assemble

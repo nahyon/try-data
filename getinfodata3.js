@@ -71,7 +71,7 @@ let getParallel = async function(urls) {
         console.error(err);
     }
     //console.log(data[0]); //AAPL만
-    //console.log(data)
+    console.log(data)
 }
 
 //getParallel();
