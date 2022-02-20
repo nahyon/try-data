@@ -75,3 +75,6 @@ symbols.forEach( (symbol, index, array) => {
 //getInfoData(symbols);
 //oneData("IBM");
 
+
+
+
