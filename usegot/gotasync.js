@@ -15,7 +15,8 @@ const symbols = ['AAPL', 'MSFT'] //, 'GOOG', 'GOOGL', 'AMZN', 'TSLA', 'FB', 'NVD
 
 async function callAPI(symbol) {
 	try {
-		const response = await got(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&outputsize=compact&apikey=ZO8S591P8HTYI8LV`);
+		const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&outputsize=compact&apikey=ZO8S591P8HTYI8LV` ;
+		const response = await got(url);
 		console.log(response.body);
 		//=> '<!doctype html> ...'
 	} catch (error) {
